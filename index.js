@@ -13,7 +13,7 @@ function initScrollingHeader() {
         });
     }
     $(window).resize(handleResize);
-    handleResize();
+    setTimeout(handleResize,250);
 
     // as the #story content scrolls, find the midline and pick the correspnding animation frame
     $('#story').scroll(function () {
