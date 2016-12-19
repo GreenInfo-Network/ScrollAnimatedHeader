@@ -4,11 +4,15 @@ HTML/CSS/JS technique for a scrolling-animated website header
 
 Not a software package but a demonstration of a technique that could work for your need.
 
+https://greeninfo-network.github.io/ScrollAnimatedHeader/
+
+
 ## How It Works
 
 * A function finds the best height for this section (called #story) so it matches the screen height to the height of the header, and CSS causes #story to scroll its content.
 
 * A *scroll* event handler on #story calculates how far along you are in the scrolling process, then which of the "frames" of the animation is aldso that far along, and shows only that image.
+
 
 ## Caveats and Workarounds
 
