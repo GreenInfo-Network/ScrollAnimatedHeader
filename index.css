@@ -1,0 +1,18 @@
+/* show the animated-image header at the top, we like it 100% width */
+/* only show the first "frame" at this time, scroll event will show the others */
+#image-frames {
+    position: relative; top:0; left:0;
+    width: 100%;
+}
+#image-frames img {
+    display:none;
+    width: 100%;
+}
+#image-frames img:first-child {
+    display: inline-block;
+}
+
+#story {
+    overflow: auto;
+    max-height:100px; /* overridden by screen-size detection*/
+}
